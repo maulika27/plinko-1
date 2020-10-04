@@ -57,6 +57,9 @@ function draw() {
  //text("Score : "+score,20,30);
   Engine.update(engine);
   ground.display();
+
+  fill ("white");
+  text("PLINKO GAME", 50, 50);
   
    for (var i = 0; i < plinkos.length; i++) {
      
